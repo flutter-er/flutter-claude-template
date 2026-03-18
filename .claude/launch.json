@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Flutter Web",
+      "runtimeExecutable": "flutter",
+      "runtimeArgs": ["run", "-d", "web-server", "--web-port", "8080", "--web-hostname", "localhost"],
+      "port": 8080
+    },
+    {
+      "name": "build_runner watch",
+      "runtimeExecutable": "dart",
+      "runtimeArgs": ["run", "build_runner", "watch", "--delete-conflicting-outputs"],
+      "port": 9000
+    },
+    {
+      "name": "Flutter Test",
+      "runtimeExecutable": "flutter",
+      "runtimeArgs": ["test", "--reporter", "expanded"],
+      "port": 9001
+    }
+  ]
+}
