@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(git init:*)",
+      "Bash(mkdir -p .claude/agents .claude/rules)",
+      "Bash(git -C /Users/ashurmuhammadabdukadirov/gittemplates remote -v)",
+      "Bash(gh auth:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
