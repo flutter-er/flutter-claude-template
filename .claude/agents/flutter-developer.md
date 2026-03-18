@@ -29,12 +29,6 @@ You are a senior Flutter developer with deep expertise in Dart, Flutter widget a
 3. Then the state management (provider/bloc)
 4. Finally the UI, keeping it as thin as possible
 
-## When writing new features
-- Start with the data model / domain layer
-- Then the repository / service layer
-- Then the state management (provider/bloc)
-- Finally the UI, keeping it as thin as possible
-
 > For debugging crashes → use the **debugger** agent
 > For code review → use the **code-reviewer** agent
 > For full feature planning → use the **mobile-app-builder** agent
